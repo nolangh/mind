@@ -1,17 +1,11 @@
+import React from "react";
 import "./App.css";
-
-const MainContainer = styled.section`
-  background-color: coral;
-  height: 100vh;
-  width: 100%;
-`;
+import Test from "./components/Test";
 
 function App() {
   return (
     <div>
-      <MainContainer>
-        <h1>TESt</h1>
-      </MainContainer>
+      <Test />
     </div>
   );
 }
