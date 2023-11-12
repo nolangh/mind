@@ -1,13 +1,19 @@
-import React from "react";
-import "./App.css";
-import Test from "./components/Test";
+import styled from "styled-components";
 
-function App() {
+const MainContainer = styled.div`
+  margin: 0;
+  padding: 0;
+  background: coral;
+  height: 100vh;
+  width: 100vw;
+`;
+
+const App = () => {
   return (
-    <div>
-      <Test />
-    </div>
+    <MainContainer className="container-fluid">
+      <h1>TESt</h1>
+    </MainContainer>
   );
-}
+};
 
 export default App;
