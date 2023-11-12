@@ -1,18 +1,13 @@
-import styled from "styled-components";
-
-const MainContainer = styled.div`
-  margin: 0;
-  padding: 0;
-  background: coral;
-  height: 100vh;
-  width: 100vw;
-`;
+import { Container } from "react-bootstrap";
+import "./styles/main.css";
 
 const App = () => {
   return (
-    <MainContainer className="container-fluid">
-      <h1>TESt</h1>
-    </MainContainer>
+    <>
+      <Container fluid className="mainContainer">
+        TEST
+      </Container>
+    </>
   );
 };
 
