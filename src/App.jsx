@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import "./styles/main.css";
+import "./styles/main.scss";
 
 const App = () => {
   return (
@@ -8,6 +8,9 @@ const App = () => {
         main_container
         <Container fluid classname="title_container">
           title_container
+        </Container>
+        <Container fluid className="form_main_container">
+          form_main_container
         </Container>
       </Container>
     </>
