@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
-import "./global.scss";
-//import "./styles/main.scss";
+import "./global.css";
+//import "./styles/main.css";
 
 const App = () => {
 	return (
