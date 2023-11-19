@@ -1,9 +1,6 @@
-html {
-	box-sizing: border-box;
-}
-body {
-	margin: 0;
-	padding: 0;
+#root {
+	height: 100vh;
 	box-sizing: border-box;
 	overflow: hidden;
+	background-color: darkgreen;
 }
