@@ -1,11 +1,11 @@
 .main_container {
-  background: coral;
-  color: black;
+	background: coral;
+	color: black;
 
-  .title_container {
-    height: 25%;
-    width: 25%;
-    color: yellow;
-    background: blue;
-  }
+	.title_container {
+		height: 25%;
+		width: 25%;
+		color: yellow;
+		background: blue;
+	}
 }
