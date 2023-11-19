@@ -5,6 +5,7 @@
   .title_container {
     height: 25%;
     width: 25%;
+    color: yellow;
     background: blue;
   }
 }
