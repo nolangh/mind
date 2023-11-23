@@ -90,6 +90,7 @@ const Button = styled.input``;
 
 const App = () => {
 	const [inputValue, setInputValue] = useState("");
+	// eslint-disable-next-line no-unused-vars
 	const [submittedValue, setSubmittedValue] = useState("");
 
 	const handleInputChange = (e) => {
