@@ -100,8 +100,9 @@ const App = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		setSubmittedValue(inputValue);
-		setInputValue;
+		console.log(inputValue);
 		alert(`${inputValue}`);
+		setInputValue("");
 	};
 
 	return (
@@ -133,12 +134,12 @@ const App = () => {
 										value={inputValue}
 										onChange={handleInputChange}
 									/>
+									{/*SECTION Submit Button */}
 									<Button_container>
 										<Button type="submit" value="submit" />
 									</Button_container>
 								</Form>
 							</Input_Container>
-							{/*SECTION Submit Button */}
 						</Window_body>
 						<Right_image_container>svg container - Right</Right_image_container>
 					</Body_container>
